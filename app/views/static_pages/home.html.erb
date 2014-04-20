@@ -1,0 +1,11 @@
+<div class="home">
+
+	<% Post.all.each do |post| %>
+	<div class="home-body">
+	<h2><%= link_to post.title, "/posts/#{post.slug}" %></h2>
+	<h6><%= post.created_at.strftime("%d %b. %Y") %></h6>
+	<p class="home-content"><%= post.content %></p>
+	<hr />
+</div>
+<% end %>
+</div>

@@ -1,0 +1,68 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+
+  .andrew_header {
+  	width: 100%;
+  	height: 10%;
+  	padding: 2% 0 1% 36%;
+  	font-family: verdana;
+  	color: black;
+    background: lightblue;
+    margin: auto;
+  }
+
+  .home-body p {
+    text-overflow: ellipsis; /* will make [...] at the end */
+    white-space: nowrap; /* paragraph to one line */
+    overflow:hidden; /* older browsers */
+  }
+
+  .home-body {
+    margin: 2%;
+  }
+
+  .home-content {
+    font-size: 1.3em;
+  }
+
+  .show-body {
+    margin: 2%;
+
+  }
+
+  .navbar {
+  	width: 95%;
+  	margin: auto;
+  	padding-bottom: 3%;
+  }
+
+  .navbar-inner {
+    background: #f8f8f8;
+
+      }
+
+  .span10 {
+  	background: #f8f8f8;
+  	opacity: 1.0;
+  	height: 100%;
+    word-wrap: break-word;
+  }
+
+ hr { 
+  width:100%; 
+  height:2px;
+  background: #000;
+  margin: 3% 0 3% 0;
+  }
+
+  p {
+    
+    font-size: 4em;
+  }
+.container-fluid {
+}
